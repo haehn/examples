@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- 
+Bootstrap makes use of HTML elements and CSS properties that require the use of the HTML5 doctype. 
+Be sure to include it at the beginning of every Bootstrapped page in your project. 
+-->
+<html lang="en">
+<head></head>
+
+<!--
+Bootstrap Components/Static navbar - http://bit.ly/ziG94C    
+-->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">
+            Double Eagle JSFiddle Tutorial
+          </a>
+        </div>
+      </div>
+    </div>
+
+<!--
+Bootstrap Scaffolding/Layouts - http://bit.ly/KO5F1b
+The default and simple 940px-wide, centered layout for just about any website or page provided by a single <div class="container">.
+-->
+  <div class="container">
+      
+<!--
+Bootstrap Component/Alert - http://bit.ly/ytz2fb
+Javascript Plugin - http://bit.ly/A9Qff2
+- The alert plugin is a tiny class for adding close functionality to alerts.
+-->
+  <div class="row">
+    <div class="span8 offset2 alert">
+    Buy a Few Beers!  They are good 'cause they're free!
+    </div>
+  </div>    
+<!--
+Bootstrap Scaffolding/Grid System - http://bit.ly/IyGB39
+The default grid system provided as part of Bootstrap is a 940px-wide, 12-column grid.
+-->
+    
+  <div class="row">
+    <div class="span4 offset2">
+<!--
+  Bootstrap Search Form - http://bit.ly/y0fgc3
+-->      
+    <form action="javascript: return false;"
+          class="form-search">
+<!--
+- There can only be one ID per page, it's not required for an element.  
+- If you give an element an id, it's probably referenced in the javascript.  
+- <input name="" value="" are used for form submission.
+- Try to only use class= for CSS.
+-->
+      <input type="text"               
+             id="numberOfBeers"
+             class="input-medium search-query"
+             placeholder="Enter Number of Beers" />
+<!--
+Bootstrap Button - http://bit.ly/zxEto0
+-->              
+      <button type="submit"
+              id="beerButton"
+              class="btn btn-primary">
+      Buy Beers
+      </button>
+          
+    </form>
+    </div> <!-- end of span4 -->
+    <div class="span4">
+
+    <dl>
+      <dt>How to Play</dt>
+        <dd>
+            Enter a Number and click "Buy Beers".  
+        </dd>
+        <dd>
+          Drag them to the table and they disappear.
+        </dd>
+    </dl>
+        
+    </div> <!-- end of second span4 in this row -->
+      
+  </div> <!-- end of search and instructions div -->
+  
+  <div class="row span8 offset2">
+<!--
+Bootstrap Typography - http://bit.ly/KO3nPx
+Provides spacing for seperation between sections of the page.
+-->
+    <h3> Bar <small>once the beer gets here, drag them to the table</small></h3>
+<!--
+Here is the #bar div where images of draggable beers are added to the list
+-->  
+    <div id="bar"
+         class="well dragbox">
+      <ul id="barList">
+          
+      </ul>
+    </div>
+    
+  </div> <!-- end of bar row -->
+             
+<!--
+A table to drop the beers
+-->
+  <div class="row span8 offset2">  
+    <h3> Table <small> Drag one here and keep 'em coming </small></h3>
+    <div id="table"
+         class="well dropbox">
+      <ul id="tableList">
+          
+      </ul>
+    
+    </div>
+  </div><!-- .row -->
+
+  <div class="row span8 offset2">
+<!--
+Bootstrap Typography - http://bit.ly/wztHU8
+A nicely formatted ordered list
+-->
+      <h3>How to Enter the Contest</h3>
+        <ol>
+          <li> Fork this Fiddle </li>
+          <li> Add new Feature(s) </li>
+          <li> Submit </li>
+        </ol>
+  </div>
+        
+</div>

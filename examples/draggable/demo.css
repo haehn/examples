@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.container {
+    margin-top: 10px;
+}
+
+.form-search{
+    margin-top: 10px;
+}
+
+.dragbox{
+    padding: 10px;
+    height: 120px;
+}
+
+#barList li{
+    list-style-type:none;
+    display: inline;
+}
+
+.dropbox{
+    padding: 10px;
+    height: 120px;
+}
+
+.overDropBox{
+    background-color: #8BA870;
+}
+
+#tableList li{
+    list-style-type:none;
+    display: inline;
+}

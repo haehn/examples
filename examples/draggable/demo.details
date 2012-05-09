@@ -1,0 +1,15 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: Double Eagle Tutorial
+ description: A demo of JQuery, Draggable/Droppable and jsFiddle
+ authors:
+   - Addison H.
+   - Tim Batchelor
+ resources:
+   - http://jquery.com
+   - http://jsfiddle.net
+ normalize_css: no
+ ...
+
+Everything after the line containing only '...' will not be parsed
