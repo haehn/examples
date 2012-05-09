@@ -1,5 +1,3 @@
-Everything before the line containing only '---' will not be parsed
-/*
 ---
  name: Double Eagle Tutorial
  description: A demo of JQuery, Draggable/Droppable and jsFiddle
@@ -11,5 +9,3 @@ Everything before the line containing only '---' will not be parsed
    - http://jsfiddle.net
  normalize_css: no
  ...
-*/
-Everything after the line containing only '...' will not be parsed
